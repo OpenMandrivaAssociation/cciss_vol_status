@@ -40,3 +40,25 @@ rm -rf %{buildroot}
 %{_sbindir}/cciss_vol_status
 %{_mandir}/man8/cciss_vol_status.8*
 
+
+
+%changelog
+* Tue Mar 15 2011 Stéphane Téletchéa <steletch@mandriva.org> 1.09-1mdv2011.0
++ Revision: 645061
+- update to new version 1.09
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.03-3mdv2011.0
++ Revision: 616949
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.03-2mdv2010.0
++ Revision: 424750
+- rebuild
+
+* Mon Sep 08 2008 Oden Eriksson <oeriksson@mandriva.com> 1.03-1mdv2009.0
++ Revision: 282672
+- import cciss_vol_status
+
+
+* Mon Sep 08 2008 Oden Eriksson <oeriksson@mandriva.com> 1.03-1mdv2009.0
+- initial Mandriva package (opensuse import)
