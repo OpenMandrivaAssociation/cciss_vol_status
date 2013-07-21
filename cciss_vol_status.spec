@@ -1,10 +1,10 @@
 Summary:	HP Smart Array Status Display
 Name:		cciss_vol_status
-Version:	1.09
-Release:        %mkrel 1
+Version:	1.10
+Release:        1
 Group:		System/Kernel and hardware
 License:	GPLv2
-Source0:	http://prdownloads.sourceforge.net/cciss/%{name}-%{version}.tar.gz
+Source0:	https://sourceforge.net/projects/cciss/files/cciss_vol_status/%{name}-%{version}.tar.gz
 BuildRequires:	kernel-source
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -62,3 +62,4 @@ rm -rf %{buildroot}
 
 * Mon Sep 08 2008 Oden Eriksson <oeriksson@mandriva.com> 1.03-1mdv2009.0
 - initial Mandriva package (opensuse import)
+
