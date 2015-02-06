@@ -1,7 +1,7 @@
 Summary:	HP Smart Array Status Display
 Name:		cciss_vol_status
 Version:	1.11
-Release:        1
+Release:        2
 Group:		System/Kernel and hardware
 License:	GPLv2
 Source0:	https://sourceforge.net/projects/cciss/files/cciss_vol_status/%{name}-%{version}.tar.gz
