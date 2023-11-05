@@ -1,26 +1,24 @@
 Summary:	HP Smart Array Status Display
 Name:		cciss_vol_status
-Version:	1.11
-Release:        2
+Version:	1.12a
+Release:  1
 Group:		System/Kernel and hardware
 License:	GPLv2
 Source0:	https://sourceforge.net/projects/cciss/files/cciss_vol_status/%{name}-%{version}.tar.gz
 BuildRequires:	kernel-source
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Show status of logical drives attached to HP Smart Array controllers.
 
 %prep
-
 %setup -q
 
 %build
 autoreconf -fis
 
-%configure2_5x
+%configure
 
-%make
+%make_build
 
 %install
 rm -rf %{buildroot}
