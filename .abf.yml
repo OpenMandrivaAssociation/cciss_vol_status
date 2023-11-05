@@ -1,5 +1,2 @@
-removed_sources:
-  cciss_vol_status-1.09.tar.gz: 7212d014f65fdadf07517f7af3545019fd961bfc
-  cciss_vol_status-1.10.tar.gz: b42411617f0197e6b46803f6b816b024b0ad01c5
 sources:
-  cciss_vol_status-1.11.tar.gz: b1d4fe2c76f278d25ef744446762fd6c6c0f2c40
+  cciss_vol_status-1.12a.tar.gz: 85186e77ca07c8c4fc6e55a91354e3b9ecd0005c
