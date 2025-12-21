@@ -5,6 +5,11 @@ Release:  1
 Group:		System/Kernel and hardware
 License:	GPLv2
 Source0:	https://sourceforge.net/projects/cciss/files/cciss_vol_status/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	kernel-source
 
 %description
